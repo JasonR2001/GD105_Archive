@@ -10,18 +10,20 @@ void setup()
 void draw()
 {
   
-  background(255);
+  background(5, 60, 40); // Green background
   
-  fill(255, 0, 0); //
+  noStroke();
   
-  square(500 / 4, 300 / 4, 3000 / 4); // 1st square, biggest chungus
+  fill(5, 90, 90); //
   
-  fill(0, 255, 0); // 
+  square(500 / 4, 800 / 4, 3000 / 4); // 1st Square, teal
   
-  square(750 / 4, 700 / 4, 2500 / 4); // 2nd square
+  fill(115, 115, 115); // 
   
-  fill(0, 0, 255); // 
+  square(850 / 4, 1350 / 4, 2250 / 4); // 2nd Square, gray
   
-  square(1500 / 4, 2000 / 4, 1000 / 4); // 3rd square, smallest bean boi
+  fill(255, 175, 0); // 
+  
+  square(1325 / 4, 2150 / 4, 1275 / 4); // 3rd Square, gold
   
 }

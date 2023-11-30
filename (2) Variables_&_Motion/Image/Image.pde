@@ -10,6 +10,7 @@ void setup()
 void draw()
 {
  
+  background(100, 180, 165);
   
   
 }

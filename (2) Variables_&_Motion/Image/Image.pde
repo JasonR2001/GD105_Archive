@@ -1,23 +1,21 @@
 // Sonic fan artwork
 
-PImage Sonic;
-PImage Logo;
+PImage Eggman;
 
 void setup()
 {
  
-  size(514, 514);
-  Sonic = loadImage("Sonic.png");
-  Logo = loadImage("SonicLogo");
+  size(500, 500);
+  Eggman = loadImage("Eggman_Logo.png");
   
 }
 
 void draw()
 {
  
-  background(100, 180, 165);
-    image(Sonic, 514 / 2, 514 / 2, width / 3, height / 3);
-    image(Logo, 0, 0);
+  background(100, 45, 40);
+    
+    image(Eggman, 125, 100, width / 2, height / PI);
   
   
 }

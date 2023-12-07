@@ -22,7 +22,7 @@ void draw()
   textSize(50);
   fill(255, 255, 255);
   text("You can't do anything...", 5, 320);
-  text("So don't even try.", 25, 400);
+  text("...So don't even try.", 25, 400);
   text("The world is MINE!", 45, 480);
 
   tint(90, 100, 160, 140);

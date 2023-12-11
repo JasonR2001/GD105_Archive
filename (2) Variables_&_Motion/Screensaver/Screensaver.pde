@@ -13,9 +13,10 @@ void draw () {
  
   background(50, 100, 75);
   
-  Wario = loadImage ("Wario_Face.jpg");
+  Wario = loadImage ("Wario_Face.png");
   MFinger = loadImage ("Finger.png");
   
-  image (Wario, 0, 0, width, height);
+  image (Wario, 750 / 3, 750 / 3, width / 3, height / 3);
+  image (MFinger, 0, 0, width / 2, height);
   
 }
